@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">ExpertTalk</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="password_text">Şifreniz</string>
+    <string name="email_text">E-posta adresiniz</string>
+    <string name="sign_in_text">Giriş Yap</string>
+    <string name="forget_password">Şifremi Unuttum</string>
+    <string name="create_account_text">Hesap Oluşturun (Müşteri)</string>
+    <string name="create_account_expert_text">Hesap Oluşturun (Uzman)</string>
+    <string name="welcome_text">Hoş geldiniz</string>
+    <string name="sign_in_description_text">Expert talk uygulamasına giriş yapmak üzeresiniz.</string>
+    <string name="sign_up_text">Kayıt Olun</string>
+    <string name="sign_up_name_text">Ad-Soyad</string>
+    <string name="sign_up_button_text">Kayıt Ol</string>
+    <string name="already_have_an_account_text">Hesabınız varsa Giriş Yapın</string>
+    <string name="password_again_text">Şifre tekrar</string>
+    <string name="phone_text">Telefon</string>
+    <string name="expert_sign_up_text">Uzman Başvuru Formu</string>
+    <string name="select_expert_categorie_text">Uzmanlık Kategorisi Seçin</string>
+    <string name="condition_expert_job">ExpertTalk ekibine katılmak ve online danışmanlık hizmeti vermek için formu doldurmanız gerekmektedir.</string>
+
+
+    <!-- Coach Texts -->
+    <string name="coach_type_text">Koçluk Tipi</string>
+    <string name="coach_type_text_checkbox_1">Kurumsal ve Bireysel koçluk</string>
+    <string name="coach_type_text_checkbox_2">Kurumsal koçluk</string>
+    <string name="coach_type_text_checkbox_3">Bireysel koçluk</string>
+
+    <string name="coach_areas_text">Koçluk Yaptığınız Alanlar</string>
+    <string name="coach_areas_checkbox_1">Akademik koçluk</string>
+    <string name="coach_areas_checkbox_2">Dikkat Eksikliği Koçluğu</string>
+    <string name="coach_areas_checkbox_3">Evebeyn koçluğu</string>
+    <string name="coach_areas_checkbox_4">Girişimci koçluğu</string>
+    <string name="coach_areas_checkbox_5">İlişki koçluğu</string>
+    <string name="coach_areas_checkbox_6">İş geliştirme koçluğu</string>
+    <string name="coach_areas_checkbox_7">Kariyer koçluğu</string>
+    <string name="coach_areas_checkbox_8">Mentor koçluğu</string>
+    <string name="coach_areas_checkbox_9">Öğrenci koçluğu</string>
+    <string name="coach_areas_checkbox_10">Pazarlama/Satış koçluğu</string>
+    <string name="coach_areas_checkbox_11">Süpervizyon koçluğu</string>
+    <string name="coach_areas_checkbox_12">Üst kademe yönetici koçluğu</string>
+    <string name="coach_areas_checkbox_13">Yaşam koçluğu</string>
+    <string name="coach_areas_checkbox_14">Yazar koçluğu</string>
+    <string name="coach_areas_checkbox_15">Yönetici koçluğu</string>
+
+    <string name="coach_language_text">Hangi Dilde Koçluk</string>
+    <string name="coach_language_checkbox_1">Türkçe</string>
+    <string name="coach_language_checkbox_2">İngilizce</string>
+    <string name="coach_language_checkbox_3">Almanca</string>
+    <string name="coach_language_checkbox_4">İtalyanca</string>
+    <string name="coach_language_checkbox_5">Fransızca</string>
+    <string name="coach_language_checkbox_6">Çince</string>
+    <string name="coach_language_checkbox_7">Arapça</string>
+    <string name="coach_language_checkbox_8">Farsça</string>
+    <string name="coach_language_checkbox_9">İspanyolca</string>
+    <string name="coach_language_checkbox_10">Japonca</string>
+    <string name="coach_language_checkbox_11">Rusça</string>
+    <string name="coach_language_checkbox_12">Yunanca</string>
+
+    <!-- Lawyer Texts -->
+    <string name="lawyer_type_text">Avukat türü</string>
+    <string name="lawyer_type_checkbox_1">Boşanma</string>
+    <string name="lawyer_type_checkbox_2">Ceza ve Savcılık</string>
+    <string name="lawyer_type_checkbox_3">Borç-Alacak</string>
+    <string name="lawyer_type_checkbox_4">Tazminat</string>
+    <string name="lawyer_type_checkbox_5">Miras</string>
+    <string name="lawyer_type_checkbox_6">İşçi-İşveren</string>
+    <string name="lawyer_type_checkbox_7">Sigorta</string>
+    <string name="lawyer_type_checkbox_8">Bilişim</string>
+    <string name="lawyer_type_checkbox_9">Arabulucu</string>
+    <string name="lawyer_type_checkbox_10">İcra Takip</string>
+    <string name="lawyer_type_checkbox_11">İdari Davalar</string>
+    <string name="lawyer_type_checkbox_12">İflas</string>
+    <string name="lawyer_type_checkbox_13">Patent Marka</string>
+    <string name="lawyer_type_checkbox_14">Trafik ve Kaza</string>
+    <string name="lawyer_type_checkbox_15">Uluslararası Hukuk</string>
+    <string name="lawyer_type_checkbox_16">Vergi</string>
+    <string name="lawyer_type_checkbox_17">Tüketici</string>
+
+
+    <!-- Language Practices Texts -->
+
+    <string name="language_practice_text">Dil Pratiği \n (Dil pratiği konusunda uzmanlar ya o dil için yeterli olduğunu gösterir doğrulanabilir bir diplomaya ya da o ülkede doğduğunu belgeleyecek bir belgeye sahip olmalıdır. )</string>
+    <string name="language_practice_checkbox_1">Türkçe</string>
+    <string name="language_practice_checkbox_2">İngilizce</string>
+    <string name="language_practice_checkbox_3">Almanca</string>
+    <string name="language_practice_checkbox_4">Fransızca</string>
+    <string name="language_practice_checkbox_5">İspanyolca</string>
+    <string name="language_practice_checkbox_6">Rusça</string>
+    <string name="language_practice_checkbox_7">Çince</string>
+    <string name="language_practice_checkbox_8">Japonca</string>
+    <string name="language_practice_checkbox_9">Korece</string>
+    <string name="language_practice_checkbox_10">Portekizce</string>
+    <string name="language_practice_checkbox_11">Yunanca</string>
+    <string name="language_practice_checkbox_12">Arapça</string>
+    <string name="language_practice_checkbox_13">Farsça</string>
+    <string name="language_practice_checkbox_14">Azerice</string>
+    <string name="language_practice_checkbox_15">İtalyanca</string>
+
+    <!-- E-Commerce Texts -->
+
+    Trendyol
+    Hepsiburada
+    N11
+    Amazon
+    Etsy
+    Aliexpress
+    Ebay
+    <string name="e_commerce_text">E-Ticaret Uzmanı \n \n (Bu alanda yalnızca diploma yeterliliği olan ya da kendini kitlelere kanıtlamış kişilerin başvuruları kabul edilecektir)</string>
+    <string name="e_commerce_checkbox_1">Trendyol</string>
+    <string name="e_commerce_checkbox_2">Hepsiburada</string>
+    <string name="e_commerce_checkbox_3">N11</string>
+    <string name="e_commerce_checkbox_4">Amazon</string>
+    <string name="e_commerce_checkbox_5">Etsy</string>
+    <string name="e_commerce_checkbox_6">Aliexpress</string>
+    <string name="e_commerce_checkbox_7">Ebay</string>
+</resources>

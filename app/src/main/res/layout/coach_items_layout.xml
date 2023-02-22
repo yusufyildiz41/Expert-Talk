@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/coach_type_text"
+            android:textSize="14sp"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="122dp" />
+
+        <CheckBox
+            android:id="@+id/coachTypeChcBx1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_type_text_checkbox_1">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/coachTypeChcBx2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_type_text_checkbox_2">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/coachTypeChcBx3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_type_text_checkbox_3">
+
+        </CheckBox>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_areas_text"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/coachAreasChcBx1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_areas_checkbox_1">
+
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/coachAreasChcBx2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_areas_checkbox_2">
+
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/coachAreasChcBx3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_areas_checkbox_3">
+
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/coachAreasChcBx4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_areas_checkbox_4">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/coachAreasChcBx5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_areas_checkbox_5">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/coachAreasChcBx6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_areas_checkbox_6">
+
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/coachAreasChcBx7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_areas_checkbox_7">
+
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/coachAreasChcBx8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_areas_checkbox_8">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/coachAreasChcBx9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_areas_checkbox_9">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/coachAreasChcBx10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_areas_checkbox_10">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/coachAreasChcBx11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_areas_checkbox_11">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/coachAreasChcBx12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_areas_checkbox_12">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/coachAreasChcBx13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_areas_checkbox_13">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/coachAreasChcBx14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_areas_checkbox_14">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/coachAreasChcBx15"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/coach_areas_checkbox_15">
+
+        </CheckBox>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_language_text"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/coachLanguageChcBx2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/coach_language_checkbox_2">
+
+        </CheckBox>
+
+
+        <CheckBox
+            android:id="@+id/coachLanguageChcBx3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/coach_language_checkbox_3">
+
+        </CheckBox>
+
+
+        <CheckBox
+            android:id="@+id/coachLanguageChcBx4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/coach_language_checkbox_4">
+
+        </CheckBox>
+
+
+        <CheckBox
+            android:id="@+id/coachLanguageChcBx5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/coach_language_checkbox_5">
+
+        </CheckBox>
+
+
+        <CheckBox
+            android:id="@+id/coachLanguageChcBx6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/coach_language_checkbox_6">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/coachLanguageChcBx7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/coach_language_checkbox_7">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/coachLanguageChcBx8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/coach_language_checkbox_8">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/coachLanguageChcBx9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/coach_language_checkbox_9">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/coachLanguageChcBx10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/coach_language_checkbox_10">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/coachLanguageChcBx11"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/coach_language_checkbox_11">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/coachLanguageChcBx12"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/coach_language_checkbox_12">
+
+        </CheckBox>
+
+    </LinearLayout>
+
+
+
+
+</androidx.core.widget.NestedScrollView>

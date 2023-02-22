@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/language_practice_text"
+            android:textSize="14sp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="122dp" />
+
+        <CheckBox
+            android:id="@+id/lawyerTypeChcBx1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/language_practice_checkbox_1">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/lawyerTypeChcBx2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/language_practice_checkbox_2">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/lawyerTypeChcBx3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/language_practice_checkbox_3">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/lawyerTypeChcBx4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/language_practice_checkbox_4">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/lawyerTypeChcBx5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/language_practice_checkbox_5">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/lawyerTypeChcBx6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/language_practice_checkbox_6">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/lawyerTypeChcBx7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/language_practice_checkbox_7">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/lawyerTypeChcBx8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/language_practice_checkbox_8">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/lawyerTypeChcBx9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/language_practice_checkbox_9">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/lawyerTypeChcBx10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/language_practice_checkbox_10">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/lawyerTypeChcBx11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/language_practice_checkbox_11">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/lawyerTypeChcBx12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/language_practice_checkbox_12">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/lawyerTypeChcBx13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/language_practice_checkbox_13">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/lawyerTypeChcBx14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/language_practice_checkbox_14">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/lawyerTypeChcBx15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/language_practice_checkbox_15">
+
+        </CheckBox>
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

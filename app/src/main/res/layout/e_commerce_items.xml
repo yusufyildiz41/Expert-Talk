@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewEcommerce"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/e_commerce_text"
+            android:textSize="14sp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="122dp" />
+
+        <CheckBox
+            android:id="@+id/ecommerceChcBx1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/e_commerce_checkbox_1">
+
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/ecommerceChcBx3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/e_commerce_checkbox_3">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/ecommerceChcBx4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/e_commerce_checkbox_4">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/ecommerceChcBx5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/e_commerce_checkbox_5">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/ecommerceChcBx6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/e_commerce_checkbox_6">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/ecommerceChcBx7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/e_commerce_checkbox_7">
+
+        </CheckBox>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
+

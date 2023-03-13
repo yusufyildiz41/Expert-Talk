@@ -2,6 +2,35 @@
 
 The platform that brings experts and customers together. This application is made with clean architecture approach.
 
+# Screens
+
+<table>
+  <tr>
+    <th>Intro Page</th>
+    <th>Home Page</th>
+    <th>Message Page</th>
+  </tr>
+  <tr>
+    <td><img src="pages/movie_error.jpg" width="200" height="600"/></td>
+    <td><img src="pages/movie_list.jpg" width="200" height="600"/></td>
+    <td><img src="pages/movie_detail.jpg" width="200" height="600"/></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>Intro Page</th>
+    <th>Home Page</th>
+    <th>Message Page</th>
+  </tr>
+  <tr>
+    <td><img src="pages/movie_error.jpg" width="200" height="600"/></td>
+    <td><img src="pages/movie_list.jpg" width="200" height="600"/></td>
+    <td><img src="pages/movie_detail.jpg" width="200" height="600"/></td>
+  </tr>
+</table>
+
+
 # Project Tech stack & Open-source libraries
 
 ## Android

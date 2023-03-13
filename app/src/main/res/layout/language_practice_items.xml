@@ -9,7 +9,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="10dp">
 
         <TextView
             android:id="@+id/textViewLanguage"
@@ -22,126 +23,186 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:layout_editor_absoluteX="122dp" />
 
-        <CheckBox
-            android:id="@+id/lawyerTypeChcBx1"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/language_practice_checkbox_1">
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/languageTypeChcBx1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/language_practice_checkbox_1">
 
-        </CheckBox>
+            </CheckBox>
 
-        <CheckBox
-            android:id="@+id/lawyerTypeChcBx2"
+            <CheckBox
+                android:id="@+id/languageTypeChcBx2"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/language_practice_checkbox_2">
+
+            </CheckBox>
+
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/language_practice_checkbox_2">
+            android:orientation="horizontal">
 
-        </CheckBox>
+            <CheckBox
+                android:id="@+id/languageTypeChcBx3"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/language_practice_checkbox_3">
 
-        <CheckBox
-            android:id="@+id/lawyerTypeChcBx3"
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/languageTypeChcBx4"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/language_practice_checkbox_4">
+
+            </CheckBox>
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/language_practice_checkbox_3">
+            android:orientation="horizontal">
 
-        </CheckBox>
+            <CheckBox
+                android:id="@+id/languageTypeChcBx5"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/language_practice_checkbox_5">
 
-        <CheckBox
-            android:id="@+id/lawyerTypeChcBx4"
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/languageTypeChcBx6"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/language_practice_checkbox_6">
+
+            </CheckBox>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/language_practice_checkbox_4">
+            android:orientation="horizontal"
+           >
 
-        </CheckBox>
+            <CheckBox
+                android:id="@+id/languageTypeChcBx7"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/language_practice_checkbox_7">
 
-        <CheckBox
-            android:id="@+id/lawyerTypeChcBx5"
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/languageTypeChcBx8"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/language_practice_checkbox_8">
+
+            </CheckBox>
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/language_practice_checkbox_5">
+            android:orientation="horizontal">
 
-        </CheckBox>
+            <CheckBox
+                android:id="@+id/languageTypeChcBx9"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/language_practice_checkbox_9">
 
-        <CheckBox
-            android:id="@+id/lawyerTypeChcBx6"
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/languageTypeChcBx10"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/language_practice_checkbox_10">
+
+            </CheckBox>
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/language_practice_checkbox_6">
+            android:orientation="horizontal">
 
-        </CheckBox>
+            <CheckBox
+                android:id="@+id/languageTypeChcBx11"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/language_practice_checkbox_11">
 
-        <CheckBox
-            android:id="@+id/lawyerTypeChcBx7"
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/languageTypeChcBx12"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/language_practice_checkbox_12">
+
+            </CheckBox>
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/language_practice_checkbox_7">
+            android:orientation="horizontal">
 
-        </CheckBox>
+            <CheckBox
+                android:id="@+id/languageTypeChcBx13"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/language_practice_checkbox_13">
 
-        <CheckBox
-            android:id="@+id/lawyerTypeChcBx8"
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/languageTypeChcBx14"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/language_practice_checkbox_14">
+
+            </CheckBox>
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/language_practice_checkbox_8">
+            android:orientation="horizontal">
 
-        </CheckBox>
+            <CheckBox
+                android:id="@+id/languageTypeChcBx15"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/language_practice_checkbox_15">
 
-        <CheckBox
-            android:id="@+id/lawyerTypeChcBx9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/language_practice_checkbox_9">
+            </CheckBox>
 
-        </CheckBox>
-
-        <CheckBox
-            android:id="@+id/lawyerTypeChcBx10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/language_practice_checkbox_10">
-
-        </CheckBox>
-
-        <CheckBox
-            android:id="@+id/lawyerTypeChcBx11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/language_practice_checkbox_11">
-
-        </CheckBox>
-
-        <CheckBox
-            android:id="@+id/lawyerTypeChcBx12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/language_practice_checkbox_12">
-
-        </CheckBox>
-
-        <CheckBox
-            android:id="@+id/lawyerTypeChcBx13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/language_practice_checkbox_13">
-
-        </CheckBox>
-
-        <CheckBox
-            android:id="@+id/lawyerTypeChcBx14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/language_practice_checkbox_14">
-
-        </CheckBox>
-
-        <CheckBox
-            android:id="@+id/lawyerTypeChcBx15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/language_practice_checkbox_15">
-
-        </CheckBox>
-
+        </LinearLayout>
 
     </LinearLayout>
 

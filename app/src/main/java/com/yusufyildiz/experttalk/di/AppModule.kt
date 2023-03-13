@@ -1,22 +1,32 @@
 package com.yusufyildiz.experttalk.di
 
 import android.app.Application
-import android.content.Context
 import android.content.Context.MODE_PRIVATE
 import android.content.SharedPreferences
-import com.yusufyildiz.experttalk.data.auth.AuthApi
-import com.yusufyildiz.experttalk.data.auth.expert.ExpertRepository
-import com.yusufyildiz.experttalk.data.auth.expert.ExpertRepositoryImpl
-import com.yusufyildiz.experttalk.data.auth.user.UserRepository
-import com.yusufyildiz.experttalk.data.auth.user.UserRepositoryImpl
-import com.yusufyildiz.experttalk.data.video.VideoSdkEngineRepository
-import com.yusufyildiz.experttalk.data.video.VideoSdkEngineRepositoryImpl
+import com.yusufyildiz.experttalk.common.Utils.BASE_URL
+import com.yusufyildiz.experttalk.data.source.remote.AuthApi
+import com.yusufyildiz.experttalk.domain.repository.auth.ExpertRepository
+import com.yusufyildiz.experttalk.data.repository.auth.expert.ExpertRepositoryImpl
+import com.yusufyildiz.experttalk.domain.source.message.ChatSocketService
+import com.yusufyildiz.experttalk.data.source.remote.ChatSocketServiceImpl
+import com.yusufyildiz.experttalk.domain.source.message.MessageService
+import com.yusufyildiz.experttalk.data.source.remote.MessageServiceImpl
+import com.yusufyildiz.experttalk.domain.repository.auth.UserRepository
+import com.yusufyildiz.experttalk.data.repository.auth.user.UserRepositoryImpl
+import com.yusufyildiz.experttalk.domain.repository.video.VideoSdkEngineRepository
+import com.yusufyildiz.experttalk.data.repository.video.VideoSdkEngineRepositoryImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
+import io.ktor.client.*
+import io.ktor.client.engine.cio.*
+import io.ktor.client.features.json.*
+import io.ktor.client.features.json.serializer.*
+import io.ktor.client.features.logging.*
+import io.ktor.client.features.websocket.*
 import retrofit2.Retrofit
-import retrofit2.converter.moshi.MoshiConverterFactory
+import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.create
 import javax.inject.Singleton
 
@@ -28,8 +38,8 @@ object AppModule {
     @Singleton
     fun provideAuthApi(): AuthApi {
         return Retrofit.Builder()
-            .baseUrl("http://192.168.1.182:8080/")
-            .addConverterFactory(MoshiConverterFactory.create())
+            .baseUrl(BASE_URL)
+            .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create()
     }
@@ -58,5 +68,28 @@ object AppModule {
         return VideoSdkEngineRepositoryImpl()
     }
 
+    @Provides
+    @Singleton
+    fun provideHttpClient(): HttpClient {
+        return HttpClient(CIO){
+            install(Logging)
+            install(WebSockets)
+            install(JsonFeature){
+                serializer = KotlinxSerializer()
+            }
+        }
+    }
+
+    @Provides
+    @Singleton
+    fun provideMessageService(client: HttpClient): MessageService {
+        return MessageServiceImpl(client)
+    }
+
+    @Provides
+    @Singleton
+    fun provideChatSocketService(client: HttpClient): ChatSocketService {
+        return ChatSocketServiceImpl(client)
+    }
 
 }

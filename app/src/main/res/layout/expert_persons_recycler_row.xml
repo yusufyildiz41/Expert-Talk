@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="170dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/expertCardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        app:cardCornerRadius="15dp"
+        android:elevation="2dp">
+
+        <TextView
+            android:id="@+id/expertStarRateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:text="1,5"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="14sp">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/expertFavouriteImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/favourite_icon">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/expertStarRateImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/star_icon">
+
+        </ImageView>
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/expertImageView"
+            app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:elevation="2dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/intro_page_first">
+        </com.google.android.material.imageview.ShapeableImageView>
+
+
+        <TextView
+            android:id="@+id/expertNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="Dr. Ali Ahmet"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="120dp"
+            android:layout_gravity="center_horizontal">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="135dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/expertPriceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:text="80"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:layout_gravity="center_horizontal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/expertPriceTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:text="TL/dk"
+                android:layout_marginStart="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:layout_gravity="center_horizontal">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

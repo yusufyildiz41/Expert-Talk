@@ -15,4 +15,7 @@
     <color name="button_bg_color">#5984AB</color>
     <color name="inputBg">#F3F6F7</color>
     <color name="inputTextColor">#838383</color>
+    <color name="priceTextColor">#062C9C</color>
+    <color name="green">#4AB3B4</color>
+
 </resources>

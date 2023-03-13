@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    tools:context=".ui.signupexpert.SignUpExpertFragment">
+    tools:context=".ui.signup.expert.SignUpExpertFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -66,6 +65,77 @@
             app:layout_constraintTop_toBottomOf="@+id/signUpExpertUserNameEditText" />
 
         <EditText
+            android:id="@+id/signUpExpertIdText"
+            style="@style/EditTextStyle"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/sign_up_expert_id"
+            android:inputType="phone"
+            android:maxLength="11"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signUpExpertPhoneEditText" />
+
+        <EditText
+            android:id="@+id/signUpExpertMinuteText"
+            style="@style/EditTextStyle"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/sign_up_minute_text"
+            android:inputType="phone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signUpExpertPasswordAgainEditText" />
+
+        <EditText
+            android:id="@+id/signUpExpertPriceText"
+            style="@style/EditTextStyle"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/sign_up_expert_price_text"
+            android:inputType="phone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signUpExpertMinuteText" />
+
+        <EditText
+            android:id="@+id/signUpExpertAboutText"
+            style="@style/EditTextStyle"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="top|start"
+            android:scrollbars="vertical"
+            android:hint="@string/introduce_yourself"
+            android:inputType="textMultiLine"
+            android:maxLength="80"
+            android:maxLines="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signUpExpertPriceText" />
+
+        <EditText
+            android:id="@+id/signUpExpertLongAboutText"
+            android:inputType="textMultiLine"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            style="@style/EditTextStyle"
+            android:gravity="top|start"
+            android:scrollbars="vertical"
+            android:hint="@string/introduce_yourself_long"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/signUpExpertAboutText"
+            android:maxLength="600"
+            android:maxLines="20">
+
+        </EditText>
+
+        <EditText
             android:id="@+id/signUpExpertEmailEditText"
             style="@style/EditTextStyle"
             android:layout_width="350dp"
@@ -75,7 +145,24 @@
             android:inputType="textEmailAddress"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/signUpExpertPhoneEditText" />
+            app:layout_constraintTop_toBottomOf="@+id/signUpExpertIdText" />
+
+        <TextView
+            android:id="@+id/uploadFileButton"
+            style="@style/ButtonStyle"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:drawableEnd="@drawable/local_file_upload_icon"
+            android:paddingStart="90dp"
+            android:paddingEnd="80dp"
+            android:text="Dosya Yükle"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/subCategoryView">
+
+        </TextView>
 
         <TextView
             android:id="@+id/signUpExpertButton"
@@ -86,20 +173,20 @@
             android:text="@string/sign_up_button_text"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/subCategoryView" />
+            app:layout_constraintTop_toBottomOf="@+id/uploadFileButton" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/expertCategoryTextFieldLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
             android:layout_width="350dp"
             android:layout_height="60dp"
-            android:layout_marginEnd="10dp"
             android:layout_marginStart="10dp"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
             android:layout_marginTop="22dp"
+            android:layout_marginEnd="10dp"
             android:hint="@string/select_expert_categorie_text"
-            app:layout_constraintTop_toBottomOf="@id/signUpExpertPasswordAgainEditText"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent">
+            app:layout_constraintTop_toBottomOf="@id/signUpExpertLongAboutText">
 
             <AutoCompleteTextView
                 android:id="@+id/categorySelectText"
@@ -143,9 +230,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:gravity="center"
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
-            android:gravity="center"
             android:text="@string/condition_expert_job"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -157,8 +244,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
-            android:layout_marginEnd="30dp"
             android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
             app:layout_constraintEnd_toEndOf="@+id/expertCategoryTextFieldLayout"
             app:layout_constraintStart_toStartOf="@+id/expertCategoryTextFieldLayout"
             app:layout_constraintTop_toBottomOf="@+id/expertCategoryTextFieldLayout" />

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="start"
+    android:orientation="vertical"
+    android:layout_marginStart="5dp">
+
+    <TextView
+        android:id="@+id/chatReceiverRecyclerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="start"
+        android:text="Test"
+        android:background="@drawable/message_receiver_bg"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:textAlignment="textStart"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/chatReceiverUserEmailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:layout_marginStart="5dp">
+
+    </TextView>
+</LinearLayout>

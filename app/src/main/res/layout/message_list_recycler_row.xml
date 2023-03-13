@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/messageListLinearLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_height="80dp"
+    android:background="@drawable/message_row_bg"
+    android:layout_marginBottom="20dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/messageExpertProfileImageView"
+        app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginStart="10dp"
+        android:elevation="2dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/engineer">
+    </com.google.android.material.imageview.ShapeableImageView>
+
+    <TextView
+        android:id="@+id/messageExpertNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yusuf Yıldız"
+        android:layout_weight="16"
+        android:textStyle="bold"
+        android:drawableEnd="@drawable/next_icon"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:textColor="@color/black">
+    </TextView>
+
+</LinearLayout>

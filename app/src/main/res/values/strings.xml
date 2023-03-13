@@ -8,14 +8,21 @@
     <string name="forget_password">Şifremi Unuttum</string>
     <string name="create_account_text">Hesap Oluşturun (Müşteri)</string>
     <string name="create_account_expert_text">Hesap Oluşturun (Uzman)</string>
+    <string name="sign_in_expert_page">Uzman Hesabına Giriş Yapın</string>
     <string name="welcome_text">Hoş geldiniz</string>
     <string name="sign_in_description_text">Expert talk uygulamasına giriş yapmak üzeresiniz.</string>
+    <string name="expert_sign_in_description_text">Expert talk uygulamasına Uzman olarak giriş yapmak üzeresiniz.</string>
     <string name="sign_up_text">Kayıt Olun</string>
     <string name="sign_up_name_text">Ad-Soyad</string>
     <string name="sign_up_button_text">Kayıt Ol</string>
     <string name="already_have_an_account_text">Hesabınız varsa Giriş Yapın</string>
     <string name="password_again_text">Şifre tekrar</string>
     <string name="phone_text">Telefon</string>
+    <string name="sign_up_expert_id">T.C Kimlik No</string>
+    <string name="sign_up_minute_text">Seans Süresi (dk)</string>
+    <string name="sign_up_expert_price_text">Seans Ücreti (TL)</string>
+    <string name="introduce_yourself">Lütfen kendinizi çok kısa tanıtın</string>
+    <string name="introduce_yourself_long">Lütfen kendinizi oldukça uzun bir şekilde tanıtın \n (Tecrübeleriniz, Eğitiminiz, Uzmanlık Alanınız, \n Çalışma Geçmişiniz v.b)</string>
     <string name="expert_sign_up_text">Uzman Başvuru Formu</string>
     <string name="select_expert_categorie_text">Uzmanlık Kategorisi Seçin</string>
     <string name="condition_expert_job">ExpertTalk ekibine katılmak ve online danışmanlık hizmeti vermek için formu doldurmanız gerekmektedir.</string>
@@ -23,26 +30,26 @@
 
     <!-- Coach Texts -->
     <string name="coach_type_text">Koçluk Tipi</string>
-    <string name="coach_type_text_checkbox_1">Kurumsal ve Bireysel koçluk</string>
-    <string name="coach_type_text_checkbox_2">Kurumsal koçluk</string>
-    <string name="coach_type_text_checkbox_3">Bireysel koçluk</string>
+    <string name="coach_type_text_checkbox_1">Kurumsal ve Bireysel</string>
+    <string name="coach_type_text_checkbox_2">Kurumsal</string>
+    <string name="coach_type_text_checkbox_3">Bireysel</string>
 
     <string name="coach_areas_text">Koçluk Yaptığınız Alanlar</string>
-    <string name="coach_areas_checkbox_1">Akademik koçluk</string>
-    <string name="coach_areas_checkbox_2">Dikkat Eksikliği Koçluğu</string>
-    <string name="coach_areas_checkbox_3">Evebeyn koçluğu</string>
-    <string name="coach_areas_checkbox_4">Girişimci koçluğu</string>
-    <string name="coach_areas_checkbox_5">İlişki koçluğu</string>
-    <string name="coach_areas_checkbox_6">İş geliştirme koçluğu</string>
-    <string name="coach_areas_checkbox_7">Kariyer koçluğu</string>
-    <string name="coach_areas_checkbox_8">Mentor koçluğu</string>
-    <string name="coach_areas_checkbox_9">Öğrenci koçluğu</string>
-    <string name="coach_areas_checkbox_10">Pazarlama/Satış koçluğu</string>
-    <string name="coach_areas_checkbox_11">Süpervizyon koçluğu</string>
-    <string name="coach_areas_checkbox_12">Üst kademe yönetici koçluğu</string>
-    <string name="coach_areas_checkbox_13">Yaşam koçluğu</string>
-    <string name="coach_areas_checkbox_14">Yazar koçluğu</string>
-    <string name="coach_areas_checkbox_15">Yönetici koçluğu</string>
+    <string name="coach_areas_checkbox_1">Akademik</string>
+    <string name="coach_areas_checkbox_2">Dikkat Eksikliği</string>
+    <string name="coach_areas_checkbox_3">Evebeyn</string>
+    <string name="coach_areas_checkbox_4">Girişimci</string>
+    <string name="coach_areas_checkbox_5">İlişki</string>
+    <string name="coach_areas_checkbox_6">İş geliştirme</string>
+    <string name="coach_areas_checkbox_7">Kariyer</string>
+    <string name="coach_areas_checkbox_8">Mentor</string>
+    <string name="coach_areas_checkbox_9">Öğrenci</string>
+    <string name="coach_areas_checkbox_10">Pazarlama/Satış</string>
+    <string name="coach_areas_checkbox_11">Süpervizyon</string>
+    <string name="coach_areas_checkbox_12">Üst kademe yönetici</string>
+    <string name="coach_areas_checkbox_13">Yaşam</string>
+    <string name="coach_areas_checkbox_14">Yazar</string>
+    <string name="coach_areas_checkbox_15">Yönetici</string>
 
     <string name="coach_language_text">Hangi Dilde Koçluk</string>
     <string name="coach_language_checkbox_1">Türkçe</string>
@@ -100,13 +107,6 @@
 
     <!-- E-Commerce Texts -->
 
-    Trendyol
-    Hepsiburada
-    N11
-    Amazon
-    Etsy
-    Aliexpress
-    Ebay
     <string name="e_commerce_text">E-Ticaret Uzmanı \n \n (Bu alanda yalnızca diploma yeterliliği olan ya da kendini kitlelere kanıtlamış kişilerin başvuruları kabul edilecektir)</string>
     <string name="e_commerce_checkbox_1">Trendyol</string>
     <string name="e_commerce_checkbox_2">Hepsiburada</string>
@@ -115,4 +115,43 @@
     <string name="e_commerce_checkbox_5">Etsy</string>
     <string name="e_commerce_checkbox_6">Aliexpress</string>
     <string name="e_commerce_checkbox_7">Ebay</string>
+    <string name="searh_expert_text">Uzman Ara ...</string>
+    <string name="expert_category_text">Uzmanlık Kategorisi</string>
+    <string name="your_work_text">Çalıştığın Uzmanlar</string>
+    <string name="general_expert_persons">Uzmanlar</string>
+    <string name="online_switch_text">online</string>
+
+    <!-- User Profile Page Texts -->
+
+    <string name="profile_user_username">Kullanıcı Adı:</string>
+    <string name="profile_user_email">Kullanıcı E-mail:</string>
+    <string name="profile_phone">Kullanıcı Telefon Numarası:</string>
+
+    <!--Expert Profile Page Texts -->
+    <string name="profile_expert_id">T.C Kimlik No: </string>
+    <string name="profile_expert_category_name">Mesleği: </string>
+    <string name="profile_expert_time">Seans Süresi: </string>
+    <string name="profile_expert_price">Seans Ücreti: </string>
+    <string name="profile_expert_category_detail">Meslek Detayları: </string>
+    <string name="sign_out_text">Çıkış Yap</string>
+    <string name="expert_about_text">Can make voice call with doctor. Can make voice call with doctor. Can make voice call with doctor</string>
+    <string name="expert_name_text">Dr.Ali Altınel</string>
+    <string name="expert_price_text">180</string>
+    <string name="expert_appointment_text">Randevu</string>
+    <string name="expert_price_type_text">TRY</string>
+    <string name="about_button_text">Hakkında</string>
+    <string name="expert_detail_files">Belgeler</string>
+    <string name="self_profile_text">Kişisel Profil</string>
+    <string name="self_profile_text_ex">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="job_text">Mesleği</string>
+    <string name="job_text_ex">Çevre Mühendisi</string>
+    <string name="job_details_text">Detaylar</string>
+    <string name="appointment_text">Randevu Oluşturun</string>
+    <string name="next_button_text">Devam > </string>
+    <string name="hour_text">19.05</string>
+    <string name="hour_title_text">Saat</string>
+    <string name="date_text">18.02.2022</string>
+    <string name="date_title_text">Tarih</string>
+    <string name="sign_up_user_sign_in_text">Müşteri Hesabına Giriş Yapın</string>
+
 </resources>

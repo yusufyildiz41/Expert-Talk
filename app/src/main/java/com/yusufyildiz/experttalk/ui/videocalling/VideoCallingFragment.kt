@@ -74,7 +74,7 @@ class VideoCallingFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         registerLauncher()
-        val permissionLauncher =
+        val permissionLauncherShouldRequet =
             registerForActivityResult(
                 ActivityResultContracts.RequestMultiplePermissions()
             ) {
@@ -99,7 +99,7 @@ class VideoCallingFragment : Fragment() {
                         Utils.permissions[1]
                     ) != PackageManager.PERMISSION_GRANTED
                 ) {
-                    shouldShowRationale(permissionLauncher)
+                    shouldShowRationale(permissionLauncherShouldRequet)
                 } else {
                     //permission granted
                     showMessage(requireContext(), "Permission Granted")
@@ -310,7 +310,6 @@ class VideoCallingFragment : Fragment() {
         removeRemoteVideo()
         leaveChannel()
     }
-
 
     fun showMessage(context: Context, message: String) {
         Toast.makeText(context, message, Toast.LENGTH_SHORT).show()

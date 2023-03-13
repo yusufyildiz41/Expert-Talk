@@ -66,7 +66,10 @@ The platform that brings experts and customers together. This application is mad
 
 ## Android
 
-- [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html): Clean Architecture is an architectural pattern for designing software systems. It was first proposed by Robert C. Martin, also known as "Uncle Bob", in his book "Clean Architecture: A Craftsman's Guide to Software Structure and Design".
+- [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html): Clean Architecture is an architectural pattern for designing software systems.
+  -Data Layer: While the UI layer contains UI-related state and UI logic, the data layer contains application data and business logic. The business logic is what gives    value to your app—it's made of real-world business rules that determine how application data must be created, stored, and changed.
+  -Domain Layer: The domain layer is responsible for encapsulating complex business logic, or simple business logic that is reused by multiple ViewModels. This layer      is optional because not all apps will have these requirements. You should only use it when needed-for example, to handle complexity or favor reusability.
+  -UI Layer: The role of the UI is to display the application data on the screen and also to serve as the primary point of user interaction. Whenever the data changes,    either due to user interaction (like pressing a button) or external input (like a network response), the UI should update to reflect those changes. Effectively, the    UI is a visual representation of the application state as retrieved from the data layer.
 - [Flow](https://developer.android.com/kotlin/flow) : Flows are built on top of coroutines and can provide multiple values. A flow is conceptually a stream of data that can be computed asynchronously.
 - [Shared Preferences](https://www.digitalocean.com/community/tutorials/android-sharedpreferences-kotlin) : If you have a relatively small collection of key-values that you'd like to save, you should use the SharedPreferences APIs. A SharedPreferences object points to a file containing key-value pairs and provides simple methods to read and write them
 - [OkHttp](https://square.github.io/okhttp/) : OkHttp is a popular open-source Java library for making HTTP and HTTPS requests. It was developed by Square, the same company that created Retrofit, another popular HTTP client library for Android.
@@ -104,8 +107,6 @@ The platform that brings experts and customers together. This application is mad
    - Send requests: Postman makes it easy to send HTTP requests to APIs and view the responses. Developers can choose from a variety of request types, including GET, POST, PUT, DELETE, and more.
    - Test APIs: Postman includes features for testing APIs, such as automated testing and assertion testing, which help ensure that APIs are working as expected.
 
-
-## Project Structure
 
 
 

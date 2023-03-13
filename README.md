@@ -66,7 +66,7 @@ The platform that brings experts and customers together. This application is mad
 
 ## Android
 
-- [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html): Clean Architecture is an architectural pattern for designing software systems.
+1.[Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html): Clean Architecture is an architectural pattern for designing   software systems.
   -Data Layer: While the UI layer contains UI-related state and UI logic, the data layer contains application data and business logic. The business logic is what gives    value to your app—it's made of real-world business rules that determine how application data must be created, stored, and changed.
   -Domain Layer: The domain layer is responsible for encapsulating complex business logic, or simple business logic that is reused by multiple ViewModels. This layer      is optional because not all apps will have these requirements. You should only use it when needed-for example, to handle complexity or favor reusability.
   -UI Layer: The role of the UI is to display the application data on the screen and also to serve as the primary point of user interaction. Whenever the data changes,    either due to user interaction (like pressing a button) or external input (like a network response), the UI should update to reflect those changes. Effectively, the    UI is a visual representation of the application state as retrieved from the data layer.
